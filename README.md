@@ -1,4 +1,4 @@
-# Full Stack application of a kanban board
+# Full Stack Web Application of an exemplary kanban board
 
 ## Requirements
 
