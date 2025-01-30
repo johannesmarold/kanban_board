@@ -84,6 +84,7 @@ app.get('/api/tags', (req, res) => {
 });
 
 app.get('/api/columns', (req, res) => {
+  console.log("GET request");
   res.writeHead(200, {'Content-Type': 'application/json'});
   res.write(JSON.stringify(columns));
   res.end();

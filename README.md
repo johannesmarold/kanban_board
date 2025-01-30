@@ -88,9 +88,9 @@
    ```bash
    cd frontend
    ```
-2. Start the development server:
+2. Transpile the Vue application 
    ```bash
-   npm run dev
+   npm run build
    ```
 3. Access the application in your browser at `http://localhost:3000` (default).
 
@@ -103,8 +103,6 @@
    ```bash
    node index.js
    ```
-3. The backend will listen on `http://localhost:5000` (default).
-
 ---
 
 ## Running the Project
@@ -114,7 +112,7 @@
 2. In one terminal, navigate to the `frontend` directory and start the frontend server:
    ```bash
    cd /path/to/project/frontend
-   npm run dev
+   npm run build
    ```
 3. In the second terminal, navigate to the `backend` directory and start the backend server:
    ```bash
@@ -129,10 +127,6 @@
 ---
 
 ## Additional Notes
-
-### Troubleshooting
-- If ports `3000` (frontend) or `5000` (backend) are already in use, update the configurations in the respective files (`vite.config.js` for frontend and `index.js` for backend).
-- Ensure proper permissions for Linux users by running commands with `sudo` where necessary.
 
 ### Cleaning Up
 - To remove `node_modules` and start fresh:
