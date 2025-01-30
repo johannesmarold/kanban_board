@@ -81,30 +81,6 @@
 
 ---
 
-## Setup
-
-### Frontend
-1. Ensure you are in the `frontend` directory.
-   ```bash
-   cd frontend
-   ```
-2. Transpile the Vue application 
-   ```bash
-   npm run build
-   ```
-3. Access the application in your browser at `http://localhost:3000` (default).
-
-### Backend
-1. Ensure you are in the `backend` directory.
-   ```bash
-   cd backend
-   ```
-2. Start the server:
-   ```bash
-   node index.js
-   ```
----
-
 ## Running the Project
 
 ### Combined Workflow
